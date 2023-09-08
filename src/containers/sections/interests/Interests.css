@@ -1,0 +1,12 @@
+#interests .flex-wrap {
+    display: flex;
+}
+
+@media only screen AND (max-width: 650px) {
+
+    #interests .flex-wrap {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+}

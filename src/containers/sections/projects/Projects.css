@@ -1,0 +1,20 @@
+#projects .grid-temp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen AND (max-width: 830px) {
+
+    #projects .grid-temp {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen AND (max-width: 650px) {
+
+    #projects .grid-temp {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,12 @@
+#certificates .grid-temp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen AND (max-width: 900px) {
+
+    #certificates .grid-temp {
+        grid-template-columns: 1fr;
+    }
+
+}

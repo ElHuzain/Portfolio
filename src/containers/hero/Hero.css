@@ -1,0 +1,56 @@
+#hero {
+    height: 100vh;
+    background: radial-gradient(circle at center,
+            #282828,
+            var(--background-clr));
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    bottom: 0%;
+    transition: bottom .3s ease-in-out;
+}
+
+#hero .hero-contacts {
+    display: flex;
+    gap: 0;
+    margin: 0 auto;
+}
+
+
+
+.hidden {
+    /* height: 0px !important; */
+    bottom: 100% !important;
+    /* overflow: hidden; */
+}
+
+#hero .hero-welcome h1 {
+    font-size: 2.7rem;
+}
+
+@media only screen AND (max-width: 650px) {
+
+
+
+
+    /* #hero .hero-contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    } */
+
+}
+
+@media only screen AND (max-width: 500px) {
+
+    #hero .hero-welcome h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    #hero {
+        padding: 0 5%;
+    }
+
+}
