@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e4abcc20.css",
-    "main.js": "/Portfolio/static/js/main.5701775a.js",
+    "main.js": "/Portfolio/static/js/main.560b8b27.js",
     "static/media/Huzain CV - 2.pdf": "/Portfolio/static/media/Huzain CV - 2.d632199f8ba42e49c3df.pdf",
     "static/media/Graduation-Cert.png": "/Portfolio/static/media/Graduation-Cert.92a0d14cda9ba5c9649e.png",
     "static/media/ITI-Flutter-Cert.png": "/Portfolio/static/media/ITI-Flutter-Cert.2da5176eb2f043692c16.png",
@@ -9,10 +9,10 @@
     "static/media/me-2-min.JPG": "/Portfolio/static/media/me-2-min.1132d4242433bf7de3eb.JPG",
     "index.html": "/Portfolio/index.html",
     "main.e4abcc20.css.map": "/Portfolio/static/css/main.e4abcc20.css.map",
-    "main.5701775a.js.map": "/Portfolio/static/js/main.5701775a.js.map"
+    "main.560b8b27.js.map": "/Portfolio/static/js/main.560b8b27.js.map"
   },
   "entrypoints": [
     "static/css/main.e4abcc20.css",
-    "static/js/main.5701775a.js"
+    "static/js/main.560b8b27.js"
   ]
 }
