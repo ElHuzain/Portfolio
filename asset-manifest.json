@@ -1,18 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.03972474.css",
-    "main.js": "/Portfolio/static/js/main.857dc566.js",
-    "static/media/Huzain CV - 2.pdf": "/Portfolio/static/media/Huzain CV - 2.d632199f8ba42e49c3df.pdf",
-    "static/media/Graduation-Cert.png": "/Portfolio/static/media/Graduation-Cert.92a0d14cda9ba5c9649e.png",
-    "static/media/ITI-Flutter-Cert.png": "/Portfolio/static/media/ITI-Flutter-Cert.2da5176eb2f043692c16.png",
-    "static/media/ITI-PHP-Cert.png": "/Portfolio/static/media/ITI-PHP-Cert.0cf18fe84fcf91afd686.png",
-    "static/media/me-2-min.JPG": "/Portfolio/static/media/me-2-min.1132d4242433bf7de3eb.JPG",
+    "main.css": "/Portfolio/static/css/main.7dae4c5a.css",
+    "main.js": "/Portfolio/static/js/main.385dc0d3.js",
     "index.html": "/Portfolio/index.html",
-    "main.03972474.css.map": "/Portfolio/static/css/main.03972474.css.map",
-    "main.857dc566.js.map": "/Portfolio/static/js/main.857dc566.js.map"
+    "main.385dc0d3.js.map": "/Portfolio/static/js/main.385dc0d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.03972474.css",
-    "static/js/main.857dc566.js"
+    "static/css/main.7dae4c5a.css",
+    "static/js/main.385dc0d3.js"
   ]
 }
