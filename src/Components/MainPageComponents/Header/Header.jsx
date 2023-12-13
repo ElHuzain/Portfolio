@@ -1,8 +1,8 @@
-import {styled} from 'styled-components';
-import Text, {Bold} from '../../General/Text.styled';
+import { styled } from 'styled-components';
+import Text, { Bold } from '../../General/Text.styled';
 const StyledHeader = styled.div`
     padding: 1rem 2rem;
-    position: absolute;
+    margin: 0 !important;
 `
 
 const Header = () => {

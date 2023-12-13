@@ -2,9 +2,10 @@ import { styled } from 'styled-components';
 import Text, { Bold } from '../../General/Text.styled';
 
 const StyledCTA = styled.div`
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
+    margin: 0 !important;
     div {
         margin: 0 auto;
         display: flex;

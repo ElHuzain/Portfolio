@@ -19,9 +19,15 @@ p:last-of-type{
     margin-bottom: 0;
 }
 
-@media only screen AND (max-width: ${({theme}) => theme.screen.large_mobile}) {
+
+@media only screen AND (max-width: ${({theme}) => theme.screen.large_desktop}) {
     p:nth-of-type(2) {
         font-size: 3rem !important;
+    }
+}
+@media only screen AND (max-width: ${({theme}) => theme.screen.medium_mobile}) {
+    p:nth-of-type(2) {
+        font-size: 2rem !important;
     }
 }
 

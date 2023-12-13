@@ -5,6 +5,9 @@ height: auto;
 img {
     width: 100%;
 }
+@media only screen AND (max-width: 1380px) {
+    width: 339px;
+}
 @media only screen AND (max-width: ${({ theme }) => theme.screen.medium_desktop}) {
     width: 339px;
 }

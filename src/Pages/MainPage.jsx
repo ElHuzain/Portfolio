@@ -8,6 +8,7 @@ import { useSpring, animated } from '@react-spring/web'
 const StyledMainPage = styled(animated.div)`
     position: relative;
     display: flex;
+    gap: 2rem;
     flex-direction: column;
     justify-content: space-between;
     & > div {
@@ -23,6 +24,11 @@ const StyledMainPage = styled(animated.div)`
             gap: 2rem;
         }
 
+    }
+
+    @media only screen AND (max-height: 800px) {
+        height: 100% !important;
+        overflow: scroll;
     }
 `
 

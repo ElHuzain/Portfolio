@@ -64,9 +64,13 @@ const About = () => {
     // const [content, setContent] = useState('');
 
     const ContextObject = [
-        <Flex><Text>I am a <Bold>fresh Computer Science graduate, department of Information Systems</Bold>. I have been learning Front-End Development for roughly 4 months now. And I am currently <Bold>learning how to write highly scalable and easily maintainable code</Bold>.</Text></Flex>,
-        <Text>Experienced with the core web tech (<Bold>HTML</Bold>, <Bold>CSS</Bold>, <Bold>JS</Bold>) as well as the popular framework <Bold>React.js</Bold>.
-            In addition to frameworks & libraries such as <Bold>Redux</Bold>, <Bold>React-Router</Bold>, and <Bold>Styled-Components</Bold>.</Text>,
+        <Flex><Text>I am a <Bold>fresh Computer Science graduate, department of Information Systems</Bold>. I have been learning Front-End Development for roughly 6 months now. And I am currently <Bold>learning how to write highly scalable and easily maintainable code</Bold>.</Text></Flex>,
+        <Text direction="column">
+            <Text>Proven experience in <Bold>React.js</Bold> and <Bold>NEXT.js</Bold> along with:</Text>
+            <Text><Bold>Redux</Bold>, <Bold>React-Hook-Forms</Bold> for state management & forms</Text>
+            <Text><Bold>Tailwind</Bold>, <Bold>shadcn-ui</Bold>, <Bold>Styled-Components</Bold> for styling</Text>
+            <Text><Bold>React-Router</Bold>, <Bold>NEXT App Router</Bold> for SPA Routing</Text>
+        </Text>,
         <Flex direction='column'><Text>I am currently working as a <Bold>Teacher Assistant</Bold> in <Italic>Modern university of technology & information</Italic>.</Text>
             <Text>The courses I teach for are <Bold>Mathematical Analysis I</Bold>, <Bold>Linear Algebra I</Bold>, <Bold>Discrete Mathematics</Bold>, and <Bold>Object Oriented Database</Bold></Text></Flex>,
         <Text>I am currently seeking an internship or a part-time job in Front-End Development. Preferably with ReactJS. If you are interested in hiring me, contact me by clicking on <Bold>WhatsApp</Bold> button ^^</Text>,
